@@ -13,9 +13,9 @@ All our experiments are implemented based on the PyTorch framework with one 24G 
 - torchvision=0.13.1
 
 ### dataset
-if you want to download the BraTS2018  dataset, you can access the link:https://aistudio.baidu.com/aistudio/datasetdetail/64660
+URL:https://aistudio.baidu.com/aistudio/datasetdetail/64660
 
-if you want to download the BraTS2018  dataset, you can access the link:https://aistudio.baidu.com/datasetdetail/225057
+URL:https://aistudio.baidu.com/datasetdetail/225057
 
 - To obtain the 'BraTS20xx_Training_none_npy' folders, please run the 'preprocess.py' script.
 
