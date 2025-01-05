@@ -22,14 +22,14 @@ URL:https://aistudio.baidu.com/datasetdetail/225057
 
 ## Training
 
-**MRATTrans**
+**MRATrans**
 
 - Changing the paths and hyperparameters in  ``train.py`` and ``predict.py``.
 - Set different splits for BraTS20xx in ``train.py``.
 - Then run:
 
 ```bash
-  python train.py --datapath='BRATS2018_Training_none_npy',--dataname='MICCAI_BraTS_2018_Data_Training' -modilities="SCATrans" --epochs=1000 --learing rate=0.0002 --batchsize=2
+  python train.py --datapath='BRATS2018_Training_none_npy',--dataname='MICCAI_BraTS_2018_Data_Training' -modilities="MRATrans" --epochs=1000 --learing rate=0.0002 --batchsize=2
 ```
   
 ## Evaluation
